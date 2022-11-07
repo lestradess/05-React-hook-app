@@ -20,7 +20,7 @@ export const CounterApp = () => {
             <h1>Counter3:{ counter3 }</h1>
             <hr />
             {/* una vez destructurado podemos manejar los demas objetos con 3 puntos */}
-            <button className="btn" onClick={ () => setCounter({
+            <button className="btn-outline-primary" onClick={ () => setCounter({
                 ...state,
                 counter1: counter1 + 1,
             })
