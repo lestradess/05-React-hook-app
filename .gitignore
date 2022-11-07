@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/src/hooks
+/src/01-UseState/CounterWithCustonHook.jsx
+/.gitignore
