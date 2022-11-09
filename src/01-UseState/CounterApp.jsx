@@ -11,8 +11,6 @@ export const CounterApp = () => {
     const { counter1, counter2, counter3 } = state;
     return (
         <>
-            <hr />
-            <hr />
             <h1>Counter App</h1>
             <hr />
             <h1>Counter1:{ counter1 }</h1>

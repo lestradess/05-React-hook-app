@@ -7,8 +7,6 @@ export const CounterWithCustonHook = () => {
 
     return (
         <>
-            <hr />
-            <hr />
             <h1>Counter With CustonHook: { counter }</h1>
             <hr />
             <button className="btn-outline-primary" onClick={ () => increment() }>+1</button>
